@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>主页</title>
+		<link rel="stylesheet" href="fonts/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+	<body>
+		<!--载入页面 begin-->
+		<div id="preloader">
+			<div id="loader">
+				<img src="img/cube.gif" alt="preload">
+				<div class="pre-logo">
+					<h4>Loading.</h4>
+				</div>
+			</div>
+		</div>
+		<!--载入页面 end-->
+
+		<!--主体-->
+		<header>
+			<div id="content" class="content ">
+				<!--背景音乐-->
+				<div id="bg-music"><audio src="music/Delacey-Dream It Possible.mp3" loop="-1"  autoplay="autoplay"></audio></div>
+
+				<!--导航栏图标 begin-->
+				<nav id="nav-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</nav>
+				<!--导航栏图标 end-->
+
+				<!--导航栏菜单 begin-->
+				<nav id="nav-menu">
+					<ul id="menu" class="menu-click">
+						<li>
+							<a data-scroll href="#" class="smooth-scroll">首页</a>
+						</li>
+						<li>
+							<a data-scroll href="#ABOUT" class="smooth-scroll">关于我</a>
+						</li>
+						<li>
+							<a data-scroll href="#contact" class="smooth-scroll">联系我</a>
+						</li>
+					</ul>
+				</nav>
+				<!--导航栏菜单 end-->
+
+				<!--主背景界面 begin-->
+				<div class="bg">
+					<div class="bg-img">
+						<img src="img/bg.jpg" width="100%" alt="Background Image" />
+					</div>
+				</div>
+				<!--主背景界面 end-->
+
+				<!--logo begin-->
+				<div class="nav-top">
+					<a href="index.html" class="logo"><span>Cross.</span></a>
+				</div>
+				<!--logo end-->
+
+				<!-- 主标题 begin -->
+				<div class="big-title">
+					<div class="text-center">
+						<p>你好，我是王姣</p>
+						<h1>欢迎来到我的主页面~</h1>
+
+					</div>
+				</div>
+				<!--主标题 end  -->
+
+				<!--查看更多-->
+				<button class="btn"><img class="btn2" src="img/arrow1.gif" width="70px"/></button>
+
+			</div>
+		</header>
+
+		<!--详细内容-->
+		<section>
+			<div class="detail clear">
+				<div class="de-bg">
+					<img src="img/flower.png" width="100%" style="position: absolute; top: 30px;" />
+				</div>
+				<!--名片栏-->
+				<div class="mp-bg clear">
+					<div class="pho"><img src="img/bg2.jpg" /></div>
+					<p>王 姣</p>
+					<ul>
+						<li>
+							<a href="#"><i class="fa fa-lg fa-github-alt" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-lg  fa-weixin" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-lg  fa-weibo" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-lg  fa-qq" aria-hidden="true"></i></a>
+						</li>
+
+					</ul>
+					<a href="#" class="mp-btn">DOWNLOAD RESUME</a>
+				</div>
+				<!--详细模块-->
+				<div class="de-con-bg">
+					<!--关于我-->
+					<div class="about">
+
+						<!--自我介绍-->
+						<div class="about-txt">
+							<h1 id="ABOUT"><a href="#ABOUT">ABOUT ME</a></h1>
+
+							<p>你好，我是王姣</p>
+							<div>作为一名应届生，对web前端开发有浓厚的兴趣。离开了熟悉的校园生活环境来到了陌生的城市，只为做自己喜欢的事情。纵然孑身一人，但满腔热血是我前进的动力。因为年轻，所以对未来的憧憬和希翼更加美好。我希望两年之后的我能够在这个魔都一样的城市稳定下来，成为一名合格的web前端开发师。</div>
+						</div>
+
+						<hr />
+
+						<!--个人信息-->
+						<div class="about-2nd clear">
+
+							<div class="message">
+								<h3>个人信息</h3>
+								<ul>
+									<li><i class="fa fa-user-o fa-lg" aria-hidden="true"></i>王姣</li>
+									<li><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>22</li>
+									<li><i class="fa fa-home fa-lg" aria-hidden="true"></i>河南，洛阳</li>
+									<li><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>Cathy_WangJiao@163.com</li>
+									<li><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>18336766566</li>
+								</ul>
+							</div>
+							<div class="experience">
+								<h3>经验or技能</h3>
+								<h4>HTML5/CSS3</h4>
+								<div class="square-bg">
+									<div class="square HTML5" style="width: 85%"></div>
+								</div>
+								<h4>Javascript</h4>
+								<div class="square-bg">
+									<div class="square Javascript" style="width: 65%"></div>
+								</div>
+								<h4>Java</h4>
+								<div class="square-bg">
+									<div class=" square Java" style="width: 55%"></div>
+								</div>
+							</div>
+						</div>
+
+						<!--教育背景-->
+						<hr />
+						<div class="about-3th clear">
+							<div class="edu-bg clear">
+								<h3>教育背景</h3>
+								<div class="edu-icon">
+									<i class="fa fa-3x fa-graduation-cap" style="color: #cf4a5c;"></i>
+									<h4 style="width: 95px;">洛阳师范学院</h4>
+									<span>2014~2018</span>
+								</div>
+								<div class="edu-text clear">
+									<h4>专业:<span>信息技术软件工程</span></h4>
+									<div class="edu-text-con">
+										<strong>主修课程：</strong> HTML+CSS网页设计、jQuery、JavaScript
+										<br />
+										<span>Photoshop基础、Flash动画制作、多媒体技术</span><br />
+										<span>c#高级编程、c语言、Java程序设计、SQL数据库、
+										 数据结构、操作系统等。</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<hr />
+						<!--兴趣爱好-->
+						<div class="about-4th clear">
+							<h3>兴趣or爱好</h3>
+							<ul>
+								<li><i class="fa fa-lg fa-music"></i>喜欢音乐</li>
+								<li><i class="fa fa-lg fa-code"></i>热爱编程</li>
+								<li><i class="fa fa-lg fa-camera"></i>喜欢摄影</li>
+							</ul>
+							<ul>
+								<li><i class="fa fa-lg fa-viadeo"></i>各种追剧 </li>
+								<li><i class="fa fa-lg fa-star"></i>喜欢种花</li>
+								<li><i class="fa fa-lg fa-heart"></i>一切美的事物</li>
+							</ul>
+							<ul>
+								<li><i class="fa fa-lg fa-university"></i>探索历史 </li>
+								<li><i class="fa fa-lg fa-envira"></i>追寻自然</li>
+								<li><i class="fa fa-lg fa-snowflake-o"></i>打游戏</li>
+							</ul>
+						</div>
+
+						<hr />
+
+						<!--轮播图-->
+
+						<div class="about-5th clear" id="wrapper">
+							<div id="banner">
+								<ul class="banner-wrap">
+									<li class="slider-bg">
+										<img src="img/slider11.jpg" />
+										<span class="slider-txt">
+								参加过多次社会实践、善于沟通、有耐心，不骄不躁。
+							</span>
+									</li>
+									<li class="slider-bg">
+										<img src="img/slider3.jpg" />
+										<span class="slider-txt">
+								我希望“能够在两年内成为一个独立的web前端工程师，在大城市里稳定下来”。
+							</span>
+									</li>
+									<li class="slider-bg">
+										<img src="img/slider4.jpg" />
+										<span class="slider-txt">
+								在学习生活中一直属于小群体中的leader，多次担任项目组的小组长，有一定的团队协作经验。
+							</span>
+									</li>
+									<li class="slider-bg">
+										<img src="img/slider5.jpg" />
+										<span class="slider-txt">
+								工作习惯良好、自驱动、擅合作、代码清晰整洁、善于思考、学习能力强、有责任心。
+							</span>
+									</li>
+								</ul>
+
+								<!--左右按钮-->
+								<img src="img/arrowl.png" width="15px" height="30px" id="prev" />
+								<img src="img/arrowr.png" width="15px" height="30px" id="next" />
+
+								<!--按钮层-->
+								<ul class="li-btn">
+									<li>
+										<a href="" class="active"></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+									<li>
+										<a href=""></a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<hr />
+					</div>
+
+					<!--联系我-->
+					<div class="contact" id="contact">
+						<h1>联系我</h1>
+						<div class="contact-con">
+							<form id="myForm" method="post" action="#">
+								<dl>
+									<dt>名字</dt>
+									<dd><input type="text" id="name" value="" /></dd>
+								</dl>
+								<dl>
+									<dt>邮箱</dt>
+									<dd><input required pattern="\w+@\w+(\.[a-zA-Z]{2,3}){1,2}" type="e-mail" id="mail" onblur="checkEmail();" /></dd>
+								</dl>
+								<dl>
+									<dt>主题</dt>
+									<dd><input type="text" id="subject" /></dd>
+								</dl>
+								<dl>
+									<dt>意见or建议</dt>
+									<dd><textarea name="text" rows="7" cols="43px"></textarea></dd>
+								</dl>
+								<dl>
+									<dd><input type="submit" id="sub" name="sub" value="提交" onclick="checkEmail()" /></dd>
+								</dl>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!--结尾-->
+		<footer>
+			<p>--End--Thanks for your checking<i class="fa fa-code"></i></p>
+			<a class="btn-up" href="#content"><i class="fa fa-3x fa-arrow-up"></i></a>
+		</footer>
+	</body>
+
+</html>
